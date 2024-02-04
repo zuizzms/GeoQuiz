@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(
                 view,
                 R.string.correct_toast,
-                BaseTransientBottomBar.LENGTH_SHORT)
+                Snackbar.LENGTH_SHORT)
                 .show()
         }
 
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(
                 view,
                 R.string.incorrect_toast,
-                BaseTransientBottomBar.LENGTH_SHORT)
+                Snackbar.LENGTH_SHORT)
                 .show()
         }
     }
